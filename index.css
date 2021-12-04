@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #c0c0c0;
+    font-family: "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", "ãƒ¡ã‚¤ãƒªã‚ª", Meiryo, "Noto Sans CJK JP", sans-serif;
+}
+
+canvas {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    background: #c0c0c0;
+}
+
+#drawArea {
+    display: block;
+}
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.hidari {
+    text-align: left;
+}
+
+.chuo {
+    text-align: center;
+}
+
+.migi {
+    text-align: right;
+}
+
+.lyose {
+    float: left;
+}
+
+.ryose {
+    float: right;
+}
+
+.clr {
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+a:hover {
+    color: #ff9830;
+}
+
+.b1 {
+    width: 28px;
+    height: 32px;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 0;
+}
+
+.b2 {
+    width: 44px;
+    height: 32px;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 0;
+}
