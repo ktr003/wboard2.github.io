@@ -9,10 +9,11 @@ var line = 8;
 canvas.width = width;
 canvas.height = height - 34;
 
-canvas.addEventListener("mousedown", touchStartHandler, false);
-canvas.addEventListener("mouseup", touchEndHandler, false);
+//canvas.addEventListener("mousedown", touchStartHandler, false);
+//canvas.addEventListener("mouseup", touchEndHandler, false);
 
 canvas.addEventListener("touchstart", ttouchStartHandler, false);
+canvas.addEventListener("touchmove", touchStartHandler, false);
 canvas.addEventListener("touchend", ttouchEndHandler, false);
 
 function touchStartHandler(e) {
